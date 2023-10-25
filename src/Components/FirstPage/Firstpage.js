@@ -26,7 +26,7 @@ function Firstpage() {
     </div>
 	<div className={classes.content}>
 
-    <div>
+      <div>
         <h1>All About Solar Panel</h1>
       </div>
 
