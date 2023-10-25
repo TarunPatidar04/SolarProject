@@ -1,0 +1,73 @@
+.outercontainer {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar{
+	display: table-cell;
+	width: 400px;
+    height: 100%;
+    background-color:   #235688;
+   position: fixed;
+
+}
+
+.content {
+	display: table-cell;
+	width: 400px;
+    text-align: left;
+    padding-right: 470px;
+    margin-left: 400px;
+ 
+}
+
+ul li{
+    list-style: none;
+   line-height: 34px;
+   font-size: 17px;
+   text-align: left;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF66;
+
+}
+
+a:hover{
+  color: #FFFFFF;
+}
+
+
+
+.img1{
+ width: 771px;
+ height: 457px;
+}
+
+.img2{
+width: 708px;
+height: 389px;
+}
+
+.img3{
+    width: 310px;
+    height: 310px;
+    
+}
+
+.img4{
+    width: 328px;
+    height: 328px;
+}
+
+.img5{
+    width: 318px;
+    height: 318px;
+}
+
+.img6{
+    width:  438px;
+    height: 438px;
+}
