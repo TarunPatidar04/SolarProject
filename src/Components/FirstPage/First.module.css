@@ -1,75 +1,136 @@
+/*-------------------------------------------- First Page ki CSS hai----------------------------------------------- */
+
 .outercontainer {
-	/* display: table; */
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.sidebar{
-	/* display: table-cell; */
-	width: 400px;
-    height: 100%;
-    top: 0;
-    background-color:   #235688;
-   position: fixed;
 
+/* .mm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 16%;
+  background: #000;
+  height: 100vh;
+  padding: 0 70px;
+  float: left;
 }
+
+.mn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  align-content: normal;
+  flex: 1;
+  width: 70%;
+  background: red;
+  height: 100%;
+  padding: 0 100px;
+  float: right;
+  margin-top: -950px;
+} */
+
 
 .content {
-	/* display: table-cell; */
-	width: 1100px;
-    text-align: left;
-    /* padding-right: 470px; */
-    padding-left: 420px;
-    /* margin-left: 400px; */
- 
+  width: 1100px;
+  text-align: left;
+  padding-left: 420px;
+  /* margin-right: 200px; */
 }
 
-ul li{
-    list-style: none;
-   line-height: 34px;
-   font-size: 17px;
-   text-align: left;
+.img1 {
+  width: 771px;
+  height: 457px;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #FFFFFF66;
+.img2 {
+  width: 708px;
+  height: 389px;
+}
+
+.img3 {
+  width: 310px;
+  height: 310px;
+}
+
+.img4 {
+  width: 328px;
+  height: 328px;
+}
+
+.img5 {
+  width: 318px;
+  height: 318px;
+}
+
+.img6 {
+  width: 438px;
+  height: 438px;
+}
+
+/*-------------------------------------------- Second Page ki CSS hai----------------------------------------------- */
+
+.simg1 {
+  width: 900px;
+  height: 511px;
+}
+
+.simg2 {
+  width: 500px;
+  height: 300px;
+}
+
+.simg3 {
+  width: 500px;
+  height: 300px;
+}
+
+.simg4 {
+  width: 500px;
+  height: 300px;
+}
+
+.simg5 {
+  width: 500px;
+  height: 300px;
+}
+
+.simg6 {
+  width: 500px;
+  height: 300px;
+}
+
+.simg7 {
+  width: 500px;
+  height: 300px;
+}
+
+/* .imgcontainer{
+  width: 800px;
+  height: 600px;
+} */
+
+.orglogo {
+  width: 115px;
+  height: 101px;
+  
 
 }
 
-a:hover{
-  color: #FFFFFF;
+.blulogo {
+  width: 116.08px;
+  height: 101.61px;
+
+
 }
 
-
-
-.img1{
- width: 771px;
- height: 457px;
-}
-
-.img2{
-width: 708px;
-height: 389px;
-}
-
-.img3{
-    width: 310px;
-    height: 310px;
-    
-}
-
-.img4{
-    width: 328px;
-    height: 328px;
-}
-
-.img5{
-    width: 318px;
-    height: 318px;
-}
-
-.img6{
-    width:  438px;
-    height: 438px;
+.imglogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

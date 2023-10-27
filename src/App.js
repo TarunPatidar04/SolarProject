@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Firstpage from './Components/FirstPage/Firstpage';
+// import Firstpage from './Components/FirstPage/Firstpage';
 import  '../src/index';
+import Secondpage from './Components/SecondPage/Secondpage';
 
 function App() {
   return (
     <div className="App">
-     <Firstpage/>
+     {/* <Firstpage/> */}
+     <Secondpage/>
     </div>
   );
 }
