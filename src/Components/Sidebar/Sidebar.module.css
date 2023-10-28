@@ -1,15 +1,14 @@
 .sidebar {
-  /* display: table-cell; */
   width: 400px;
-  height: 100%;
-  top: 0;
+  height: 100vh;
   background-color: #235688;
   position: fixed;
+  float: left;
 }
 
-.sidebarul{
+.sidebarul
+{
   list-style: none;
-  
 }
 
 ul li {
