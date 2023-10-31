@@ -41,8 +41,13 @@ export default function Secondpage() {
           </h2>
         </div>
 
-        <div>
+        <div className={classes.imglog}>
+        <img src={Orangelogo} className={classes.orlogo} alt="" />
+
           <img src={Spanel} alt="" className={classes.simg1} />
+          <img src={Bluelogo} className={classes.bllogo} alt="" />
+
+
         </div>
 
         <div>
@@ -63,8 +68,11 @@ export default function Secondpage() {
           </p>
         </div>
 
-        <div>
+        <div className={classes.imglogo}>
+          <img src={Orangelogo} className={classes.orglogo} alt="" />
           <img src={Rangle} alt="" className={classes.simg2} />
+          <img src={Bluelogo} className={classes.blulogo} alt="" />
+
         </div>
 
         <div>
@@ -85,8 +93,11 @@ export default function Secondpage() {
           </ul>
         </div>
 
-        <div>
+        <div className={classes.imglogo}>
+          <img src={Orangelogo} className={classes.orglogo} alt="" />
           <img src={Rmaterial} alt="" className={classes.simg3} />
+          <img src={Bluelogo} className={classes.blulogo} alt="" />
+
         </div>
 
         <div>
@@ -104,8 +115,11 @@ export default function Secondpage() {
           </ul>
         </div>
 
-        <div>
+        <div className={classes.imglogo}>
+          <img src={Orangelogo} className={classes.orglogo} alt="" />
           <img src={Rage} alt="" className={classes.simg4} />
+          <img src={Bluelogo} className={classes.blulogo} alt="" />
+
         </div>
 
         <div>
@@ -126,8 +140,11 @@ export default function Secondpage() {
           </ul>
         </div>
 
-        <div>
+        <div className={classes.imglogo}>
+        <img src={Orangelogo} className={classes.orglogo} alt="" />
           <img src={Rpitch} alt="" className={classes.simg5} />
+          <img src={Bluelogo} className={classes.blulogo} alt="" />
+
         </div>
 
         <div>
@@ -176,7 +193,7 @@ export default function Secondpage() {
           </p>
         </div>
 
-        <div className={classes.imgcontainer}>
+        <div>
           <div className={classes.imglogo}>
             <img src={Orangelogo} className={classes.orglogo} alt="" />
             <img src={Rintegrity} alt="" className={classes.simg7} />

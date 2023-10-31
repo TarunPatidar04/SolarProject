@@ -25,3 +25,16 @@ ul li a {
 a:hover {
   color: #ffffff;
 }
+
+
+/* --------------------------------------------------Media Query--------------------------------------------------------- */
+
+
+@media  (max-width:320px) {
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    display: none;
+  }
+  
+}

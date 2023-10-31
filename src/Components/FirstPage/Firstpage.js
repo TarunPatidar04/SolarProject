@@ -7,6 +7,8 @@ import Public from "../Img/Public.png";
 import Factory from "../Img/Factory.png";
 import Positive from "../Img/Positive.png";
 import Sidebar from "../Sidebar/Sidebar";
+import blulogo from "../Logo/Bluelogo.png"
+import oglogo from "../Logo/Orangelogo.png"
 
 function Firstpage() {
   return (
@@ -31,8 +33,11 @@ function Firstpage() {
           <h2>Why Choose Solar Power?</h2>
         </div>
 
-        <div>
+        <div className={classes.imgl1}>
+        <img src={oglogo} alt="" className={classes.oglogo1}></img>
           <img src={Home} alt="" className={classes.img1}></img>
+        <img src={blulogo} alt="" className={classes.blulogo1}></img>
+
         </div>
 
         <div>
@@ -101,7 +106,14 @@ function Firstpage() {
 
         <div>
           <h3>Who Benefits from Solar Energy?</h3>
+        </div>
+
+
+        <div className={classes.imgl2}>
+        <img src={oglogo} alt="" className={classes.oglogo2}></img>
           <img src={Msme} alt="" className={classes.img2}></img>
+        <img src={blulogo} alt="" className={classes.blulogo2}></img>
+
         </div>
 
         <div>
@@ -128,8 +140,11 @@ function Firstpage() {
           </p>
         </div>
 
-        <div>
+        <div className={classes.imgl5}>
+        <img src={oglogo} alt="" className={classes.oglogo5}></img>
           <img src={Building} alt="" className={classes.img3}></img>
+        <img src={blulogo} alt="" className={classes.blulogo5}></img>
+
         </div>
 
         <div>
@@ -156,8 +171,11 @@ function Firstpage() {
           </p>
         </div>
 
-        <div>
+        <div className={classes.imgl5}>
+        <img src={oglogo} alt="" className={classes.oglogo5}></img>
           <img src={Public} alt="" className={classes.img4}></img>
+        <img src={blulogo} alt="" className={classes.blulogo5}></img>
+
         </div>
 
         <div>
@@ -184,8 +202,11 @@ function Firstpage() {
           </p>
         </div>
 
-        <div>
+        <div className={classes.imgl5}>
+        <img src={oglogo} alt="" className={classes.oglogo5}></img>
           <img src={Factory} alt="" className={classes.img5}></img>
+        <img src={blulogo} alt="" className={classes.blulogo5}></img>
+
         </div>
 
         <div>
@@ -211,8 +232,11 @@ function Firstpage() {
           </p>
         </div>
 
-        <div>
+        <div className={classes.imgl6}>
+        <img src={oglogo} alt="" className={classes.oglogo6}></img>
           <img src={Positive} alt="" className={classes.img6}></img>
+        <img src={blulogo} alt="" className={classes.blulogo6}></img>
+
         </div>
 
         <div>
