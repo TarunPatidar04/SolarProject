@@ -1,7 +1,7 @@
 /*-------------------------------------------- First Page ki CSS hai----------------------------------------------- */
 
 .outercontainer {
-  width: 1536px;
+  width: 100%;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -144,12 +144,12 @@
   }
   
   .img2 {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   
   .img3 {
-    width: 50%;
+    width: 40%;
     height: auto;
   }
   
@@ -190,6 +190,7 @@
   .imgl5{
     display: flex;
     align-items: center;
+    margin-left: -120px;
   }
   
   .oglogo5{
@@ -206,28 +207,35 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: -30px;
+    margin-top: 0px;
   }
   
   .oglogo2{
     width: 70px;
     height: auto;
-    
+margin-left: 40px; 
+margin-bottom: 190px;   
   }
   
   .blulogo2{
     width: 70px;
     height: auto;
+    margin-left: -30px;
+    margin-top: 180px;
   }
   
   .imgl1{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: -30px;
   }
   
   .oglogo1{
     width: 70px;
     height: auto;
+    margin-bottom: 250px;
     
     
   }
@@ -235,7 +243,8 @@
   .blulogo1{
     width: 70px;
     height: auto;
-   
+    margin-top: 300px;
+
   }
   
   
@@ -392,7 +401,101 @@ align-items: center;
 
 /* ----------------------------------------------------------Media Querry---------------------------------------------------------------- */
 
+@media  (max-width:1024px){
+  h1{
+    font-size: 25px;
+  }
+  
+  h2{
+    font-size: 22px;
+  }
 
+  h3{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .outercontainer {
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+  
+  }
+ 
+  .content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+    margin-left: 380px;
+    white-space: wrap;
+    margin-bottom: 10px;
+  }
+
+.timg1 {
+  width: 50%;
+  height: auto;
+}
+
+.timg{
+  width: 40%;
+  height: auto;
+}
+
+
+.timglogo{
+display: flex;
+align-items: center;
+padding: 0;
+margin-top: 30px;
+}
+
+.blogo{
+  width: 70px;
+  height: auto;
+  margin-top: 140px;
+}
+
+.ologo{
+  width: 70px;
+  height: auto;
+  margin-bottom: 140px;
+}
+
+
+
+.timgglogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: -150px;
+}
+
+.tologo{
+  width: 70px;
+  height: auto;
+  margin-bottom: -310px;
+  margin-right:-25px ;
+}
+
+.tblogo{
+  width: 70px;
+  height: auto;
+  margin-top: -300px;
+  margin-left: -30px;
+ 
+}
+
+}
 
 @media  (max-width:768px){
   h1{
@@ -484,7 +587,126 @@ margin-top: 30px;
   margin-left: -30px;
  
 }
+
 }
+
+
+
+
+
+/* @media (max-width:480px){
+
+  h1{
+    font-size: 16px;
+  }
+  h2{
+    font-size: 13px;
+  }
+
+  p{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .outercontainer {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+  }
+ 
+  .content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+    margin-left: 40px;
+    margin-top: 40px;
+    white-space: wrap;
+  }
+
+  .timg1 {
+    width: 35%;
+    height: auto;
+  }
+  
+  .timg{
+    width: 40%;
+    height: auto;
+  }
+  
+  
+  .timglogo{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-top: 20px;
+  }
+  
+  .blogo{
+    width: 40px;
+    height: auto;
+    margin-top: 90px;
+     
+  }
+  
+  .ologo{
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  
+  .timgglogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -100px;
+  }
+  
+  .tologo{
+    width: 50px;
+    height: auto;
+    margin-bottom: -440px;
+    margin-right:-25px ;
+  
+  }
+  
+  .tblogo{
+    width: 50px;
+    height: auto;
+    margin-top: -430px;
+    margin-left: -30px;
+   
+  }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:426px){
@@ -672,6 +894,10 @@ margin-top: 30px;
   }
 
 }
+
+
+
+
 
 
  @media  (max-width:320px) {
