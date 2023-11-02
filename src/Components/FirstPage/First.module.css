@@ -262,6 +262,8 @@
 }
 
 
+
+
 @media (max-width:426px){
   .img1 {
     width: 60%;
@@ -289,30 +291,32 @@
   }
   
   .img6 {
-    width: 40%;
+    width: 37%;
     height: auto;
-    text-align: center;
   }
   
   .imgl6{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: -290px;
+    justify-content:center;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    margin-top: -10px;
   }
   
   .oglogo6{
     width: 40px;
     height: auto;
-    margin-bottom: -280px;
-   
+    margin-left: 60px;
+margin-bottom: -300px;   
  
   }
   
   .blulogo6{
     width: 40px;
     height: auto;
-    margin-right: -80px;
+    margin-left: -80px;
+    margin-top: 100px;
+
   
   }
   
@@ -325,14 +329,12 @@
   .oglogo5{
     width: 40px;
     height: auto;
-    margin-bottom: -210px;
     
   }
   
   .blulogo5{
     width: 40px;
     height: auto;
-    margin-left: -140px; /*nhi*/
   }
   
   .imgl2{
