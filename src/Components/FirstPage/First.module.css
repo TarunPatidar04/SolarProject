@@ -12,6 +12,7 @@
   text-align: left;
   padding-right: 170px;
   float: right;
+  margin-top: 30px;
 }
 
 .img1 {
@@ -771,14 +772,14 @@
   width: 115px;
   height: 101px;
   padding-bottom: 270px;
-  margin-right: -20px;
+  margin-right: -60px;
 }
 
 .blulogo {
   width: 116.08px;
   height: 101.61px;
   padding-top: 260px;
-  margin-left: -20px;
+  margin-left: -70px;
 }
 
 .imglogo {
@@ -786,6 +787,8 @@
   flex-direction: row;
   justify-content: end;
   align-items: center;
+  margin-right: 120px;
+  margin-bottom: 30px;
 }
 
 .imglog {
