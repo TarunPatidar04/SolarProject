@@ -812,6 +812,106 @@
 
 /* ----------------------------------------------------Second Media------------------------------------------------------------- */
 
+
+
+
+@media (max-width:1440px) {
+  .simg1 {
+    width: 68%;
+    height: auto;
+  }
+  
+  .simg2 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg3 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg4 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg5 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg6 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg7 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .orglogo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: -30px;
+  
+  }
+  
+  .blulogo {
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: -30px;
+    
+  }
+  
+  .imglogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -320px;
+    margin-right: 170px;
+  }
+  
+  .imglog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -130px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: -120px;
+  }
+  
+  .orlogo {
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: -180px;
+    margin-left: -20px;
+    margin-right: -30px;
+   
+  }
+  
+  .bllogo {
+    width: 60px;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-bottom: 150px;
+    margin-top: -50px;
+
+   
+  }
+}
+
+
 @media (max-width:1024px) {
   .simg1 {
     width: 68%;
@@ -851,7 +951,9 @@
   .orglogo {
     width: 60px;
     height: auto;
-    margin-bottom: -60px;
+    margin-bottom: -80px;
+    margin-top: -20px;
+    margin-right: -30px;
   
   }
   
@@ -859,7 +961,9 @@
     width: 60px;
     height: auto;
     margin-top: -50px;
-    
+    margin-bottom: -20px;
+    margin-right: 20px;
+margin-left: -30px;    
   }
   
   .imglogo {
@@ -867,7 +971,9 @@
     flex-direction: row;
     align-items: center;
     margin-left: -320px;
-    margin-right: 80px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .imglog {
@@ -895,7 +1001,7 @@
     width: 60px;
     height: auto;
     margin-right: -30px;
-    margin-left: -10px;
+    margin-left: -30px;
     margin-bottom: 170px;
     margin-top: -110px;
 
@@ -943,6 +1049,7 @@
     width: 60px;
     height: auto;
     margin-bottom: -70px;
+    margin-top: -10px;
   
   }
   
@@ -950,6 +1057,7 @@
     width: 60px;
     height: auto;
     margin-top: -60px;
+    margin-bottom: -10px;
     
   }
   
@@ -959,6 +1067,8 @@
     align-items: center;
     margin-left: -320px;
     margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   .imglog {
@@ -986,7 +1096,7 @@
     width: 60px;
     height: auto;
     margin-right: -30px;
-    margin-left: -10px;
+    margin-left: -30px;
     margin-bottom: 200px;
     margin-top: -120px;
 
@@ -1035,14 +1145,17 @@
     width: 35px;
     height: auto;
     margin-bottom:-220px;
-    margin-top: -40px;
+    margin-top: -50px;
+    margin-right: -20px;
   
   }
   
   .blulogo {
     width: 35px;
     height: auto;
-    margin-top: -180px;
+    margin-top: -190px;
+    margin-bottom: -30px;
+    margin-left: -20px;
     
   }
   
@@ -1050,10 +1163,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: -320px;
-    margin-right: 50px;
+    margin-left: -310px;
+    margin-right: 20px;
     margin-bottom: 30px;
-    margin-top: -10px;
+    margin-top: 30px;
   }
   
   .imglog {
@@ -1062,8 +1175,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -230px;
-    margin-right: 20px;
-    margin-left: -30px;
+    margin-right: 10px;
+    margin-left: -20px;
     margin-top: -220px;
   }
   
@@ -1128,8 +1241,9 @@
   .orglogo {
     width: 35px;
     height: auto;
-    margin-bottom:-220px;
+    margin-bottom:-210px;
     margin-top: -40px;
+    margin-right: -20px;
   
   }
   
@@ -1137,6 +1251,8 @@
     width: 35px;
     height: auto;
     margin-top: -180px;
+    margin-bottom: -30px;
+    margin-left: -20px;
     
   }
   
@@ -1145,9 +1261,9 @@
     flex-direction: row;
     align-items: center;
     margin-left: -320px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
   }
   
   .imglog {
@@ -1225,6 +1341,7 @@
     height: auto;
     margin-bottom:-220px;
     margin-top: -50px;
+    margin-right: -20px;
   
   }
   
@@ -1232,6 +1349,8 @@
     width: 35px;
     height: auto;
     margin-top: -160px;
+    margin-bottom: -10px;
+    margin-left: -20px;
     
   }
   
@@ -1240,7 +1359,7 @@
     flex-direction: row;
     align-items: center;
     margin-left: -320px;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 30px;
     margin-top: 20px;
   }
@@ -1277,6 +1396,305 @@
    
   }
 }
+
+
+/* -------------------------2nd page landscape--------------- */
+
+
+@media (max-width:1440px) and (orientation: Landscape){
+  .simg1 {
+    width: 68%;
+    height: auto;
+  }
+  
+  .simg2 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg3 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg4 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg5 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg6 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg7 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .orglogo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: -30px;
+  
+  }
+  
+  .blulogo {
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: -30px;
+    
+  }
+  
+  .imglogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -320px;
+    margin-right: 170px;
+  }
+  
+  .imglog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -130px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: -120px;
+  }
+  
+  .orlogo {
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: -180px;
+    margin-left: -20px;
+    margin-right: -30px;
+   
+  }
+  
+  .bllogo {
+    width: 60px;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-bottom: 150px;
+    margin-top: -50px;
+
+   
+  }
+}
+
+
+
+@media (max-width:768px) and (orientation: Landscape) {
+  .simg1 {
+    width: 68%;
+    height: auto;
+  }
+  
+  .simg2 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg3 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg4 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg5 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg6 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg7 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .orglogo {
+    width: 60px;
+    height: auto;
+    margin-bottom: -100px;
+    margin-top: -10px;
+    margin-right: -30px;
+  
+  }
+  
+  .blulogo {
+    width: 60px;
+    height: auto;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    margin-left: -30px;
+    
+  }
+  
+  .imglogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -180px;
+    margin-right: 190px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  
+  .imglog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -130px;
+    margin-right: 20px;
+    margin-left: -30px;
+    margin-top: -120px;
+  }
+  
+  .orlogo {
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: -220px;
+    margin-left: -20px;
+    margin-right: -30px;
+   
+  }
+  
+  .bllogo {
+    width: 60px;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-bottom: 130px;
+    margin-top: -120px;
+
+   
+  }
+}
+
+@media (max-width:376px) and (orientation: Landscape){
+  .simg1 {
+    width: 55%;
+    height: auto;
+  }
+  
+  .simg2 {
+    width: 30%;
+    height: auto;
+  }
+  
+  .simg3 {
+    width: 30%;
+    height: auto;
+  }
+  
+  .simg4 {
+    width: 30%;
+    height: auto;
+  }
+  
+  .simg5 {
+    width: 30%;
+    height: auto;
+  }
+  
+  .simg6 {
+    width: 30%;
+    height: auto;
+  }
+  
+  .simg7 {
+    width: 30%;
+    height: auto;
+  }
+  
+  .orglogo {
+    width: 35px;
+    height: auto;
+    margin-bottom:-210px;
+    margin-top: -60px;
+    margin-right: -20px;
+  
+  }
+  
+  .blulogo {
+    width: 35px;
+    height: auto;
+    margin-top: -170px;
+    margin-bottom: -30px;
+    margin-left: -20px;
+    
+  }
+  
+  .imglogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -320px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .imglog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -230px;
+    margin-right: -20px;
+    margin-left: -40px;
+    margin-top: -220px;
+  }
+  
+  .orlogo {
+    width: 35px;
+    height: auto;
+    margin-top: 120px;
+    margin-bottom: -290px;
+    margin-left: -20px;
+    margin-right: -20px;
+   
+  }
+  
+  .bllogo {
+    width: 35px;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -20px;
+    margin-bottom: 230px;
+    margin-top: -170px;
+
+   
+  }
+}
+
+
+
 
 
 
