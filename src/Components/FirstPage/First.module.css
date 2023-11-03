@@ -812,6 +812,97 @@
 
 /* ----------------------------------------------------Second Media------------------------------------------------------------- */
 
+@media (max-width:1024px) {
+  .simg1 {
+    width: 68%;
+    height: auto;
+  }
+  
+  .simg2 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg3 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg4 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg5 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg6 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .simg7 {
+    width: 40%;
+    height: auto;
+  }
+  
+  .orglogo {
+    width: 60px;
+    height: auto;
+    margin-bottom: -60px;
+  
+  }
+  
+  .blulogo {
+    width: 60px;
+    height: auto;
+    margin-top: -50px;
+    
+  }
+  
+  .imglogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -320px;
+    margin-right: 80px;
+  }
+  
+  .imglog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -170px;
+    margin-right: 20px;
+    margin-left: -30px;
+    margin-top: -160px;
+  }
+  
+  .orlogo {
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: -260px;
+    margin-left: -20px;
+    margin-right: -30px;
+   
+  }
+  
+  .bllogo {
+    width: 60px;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -10px;
+    margin-bottom: 170px;
+    margin-top: -110px;
+
+   
+  }
+}
+
 @media (max-width:768px) {
   .simg1 {
     width: 68%;
